@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Style.css">
+        <title>Личная страница</title>
+    </head>
+    <body class="letter">
+        <div class="card">
+ 
+            <h1 class = "letter" align = 'center'>Чернов Даниил Викторович</h1>
+            <h2 class = "letter" align = 'center'> БИВ214</h2>
+        </div>
+        <div class="card">
+            <h2 align = 'center'>Последнее обновление {{data}}</h2>
+        </div>
+        <div class="card">
+            <h1 align = 'center'> GitLab </h1>
+        </div>
+        
+        <div>
+            <div class="card">
+                <h2 align = 'center' >Столбчатый граффик всех проектов по неделям</h2>
+            </div>
+            <p align = 'center'> {{GitGraf}} </p>
+            <div class="card">
+                <h2 align = 'center' class="text2cols">Линейный график всех коммитов по неделям</h2>
+            </div>
+            <p align = 'center'> {{GitLinGraf}} </p>
+            <div class="card">
+                <h2 align = 'center'>Всего комитов: {{gitLin}}</h2>
+            </div>
+            <div class="card">
+                <h2 align='center'>
+                    Диаграма показывающая количество коммитов за разные проекты в GitLab
+                </h2>
+<p align = 'center'> {{GGCount}} </p>
+                
+            </div>
+            <p align = 'center'> {{GitCircle}} </p>
+		<div class="card">
+			<h2 align = 'center' >Столбчатый граффик мини проекта </h2>
+
+		</div>
+			<p align = 'center'> {{GitGrafProject}} </p>
+		<div class="card">
+			<h2 align = 'center' >Линейный график коммитов мини проекта</h2>
+		</div>
+<p align = 'center'> {{GitLinGrafProject}} </p>
+		<div class="card">
+			<h2 align = 'center' >Всего коммитов в мини проекте: {{ProjCount}}</h2>
+		</div>
+        </div>
+        <div>
+            <div class="card"><h1 align = 'center'> Taiga </h1>
+		<h3 align = 'center'>общее количество юзерстори в эпике {{story}}</h3>
+		<h3 align = 'center'>общее количество задач в юзерстори {{tasksT}}</h3>
+	</div>
+            <p align = 'center'> {{DataTaiga}} </p>
+        </div>
+        
+        <div>
+            <div class="card"><h1 align = 'center'> Jitsi </h1>
+		<h3 align = 'center'> Количество комнат, которые были посещены за весь период обучения: {{JitsiCount}} </h3>
+            <h3 align = 'center'> Комнаты, которые были посещены за весь период обучения: {{JitsiRooms}} </h3>
+            <h3 align = 'center'> График посещения комнаты</h3>
+            
+            </div>
+            
+            <p align = 'center'> {{DataJitsi}} </p>
+            <div class="card">
+                <h3 align = 'center'> Линейный график посещения комнат</h3>
+            </div>
+            
+            <p align = 'center'> {{DataLenJitsi}} </p>
+        </div>
+        
+        
+        <div>
+            <div class = "card"><h1 align = 'center'> Zulip </h1></div>
+            <h2 align='center' class="card">Беседы, в которых писал {{ZulipChanels}}</h2>
+            <h2 align = 'center' class="card">Столбчатая диаграмма сообщений в чатах по дням</h2>
+            <p align = 'center'> {{DataZulip}} </p>
+            <h2 align = 'center' class="card">Линейная диаграмма</h2>
+            <p align = 'center'> {{DataLinZulip}} </p>
+            <h2 align = 'center' class="card">Всего сообщений: {{CountZulip}}</h2>
+        </div>
+        <blockquote class="card">
+
+            <ul>
+                <li><a href="https://wiki.miem.hse.ru/persons/students/ivt/biv214/dvchernov_1/ps-ivt1/aboutme">О себе</a></li>
+                <li><a href="https://wiki.miem.hse.ru/persons/students/ivt/biv214/dvchernov_1/ps-ivt1/poster-session-review">Постерная сессия</a></li>
+            </ul> 
+</blockquote>
+    </body>

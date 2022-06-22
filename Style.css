@@ -1,0 +1,18 @@
+body {
+    background-color: #8e9a9a;
+    font-family: Tahoma;
+}
+
+
+
+.card{
+    width: auto;
+    background: url(1.png);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #292929;
+}
+.letter{
+    color: #7971ff;
+}
